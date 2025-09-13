@@ -5,10 +5,8 @@ import { defineConfig } from 'astro/config'
 import UnoCSS from 'unocss/astro'
 
 export default defineConfig({
-  site: 'https://astro-theme-vitesse.netlify.app/',
-  server: {
-    port: 1977,
-  },
+  site: 'https://cmarkus.github.io/markus-lab/',
+  base: '/markus-lab/',
   integrations: [
     mdx(),
     sitemap(),
